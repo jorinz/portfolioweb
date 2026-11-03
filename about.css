@@ -100,11 +100,23 @@
 .campus-school span { padding-left: 4px; color: var(--about-accent); font-size: 11px; }
 .campus-school:hover { color: var(--about-accent); }
 .campus-address { margin-top: 9px !important; color: #969c98 !important; font-size: 11px !important; }
+.campus-map-heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-top: 18px;
+	color: #969c98;
+	font-size: 11px;
+}
+
+.campus-map-heading a { color: var(--about-accent); }
+.campus-map-heading a:hover { color: #d3dfc7; }
+
 .campus-map {
 	display: block;
 	width: 100%;
 	height: 300px;
-	margin-top: 18px;
 	border: 1px solid #414749;
 	background: #25292b;
 }
